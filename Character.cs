@@ -6,14 +6,7 @@ using System.Threading.Tasks;
 
 namespace RPGGame
 {
-    enum CharacterClass
-    {
-        Warrior,
-        Mage,
-        Rogue
-    }
-
-    internal class Character
+    public class Character
     {
         public string Name { get; set; }
         public CharacterClass Class { get; set; }
@@ -28,8 +21,4 @@ namespace RPGGame
             Inventory = new List<string>();
         }
     }
-
-
-
-
 }
